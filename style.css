@@ -1,0 +1,508 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home_page {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 10%;
+    width: 100%;
+    background-color: rgba(13, 13, 55, 0.339);
+    display: flex;
+    position: fixed;
+    z-index: 100;
+}
+.nav_icon a:hover{
+    color:#dadada;
+}
+button:hover{
+    background-color:rgb(111, 127, 176);
+}
+
+.logo {
+    height: 100%;
+    width: 50%;
+    padding: 0 20px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo h6 {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.nav_icon {
+    height: 100%;
+    width: 50%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+a {
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg i {
+    font-size: 20px;
+    color: blue;
+}
+
+#home_colony {
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+#home_colony_left {
+    width: 50%;
+    background-color: rgb(9, 9, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.similar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-transform: capitalize;
+    /* font-weight: 900; */
+}
+
+p {
+    font-size: 15px;
+}
+
+button {
+    padding: 7px 12px;
+    background-color: rgb(75, 111, 220);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#home_colony_right {
+    width: 50%;
+}
+
+.home_image {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.insider.com/5730ba649105842b008c1aa0?width=1200&format=jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#collection_home {
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    background: linear-gradient(to bottom, rgb(178, 213, 227) 10%, white 90%);
+}
+
+.collection_home_left {
+    width: 50%;
+    padding: 10% 8%;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.collection_home_right {
+    width: 50%;
+}
+
+.cards {
+    position: relative;
+}
+
+.card1 {
+    position: absolute;
+    height: 380px;
+    width: 270px;
+    background-color: #fff;
+    top: 70px;
+    right: 80px;
+    padding: 5px;
+}
+
+.card1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.card2 {
+    position: absolute;
+    height: 340px;
+    width: 260px;
+    background-color: #fff;
+    top: 90px;
+    right: 200px;
+    padding: 5px;
+}
+
+.card2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.card3 {
+    position: absolute;
+    height: 290px;
+    width: 230px;
+    background-color: #fff;
+    top: 115px;
+    left: 30px;
+    padding: 5px;
+}
+
+.card3 img {
+    height: 100%;
+    width: 100%;
+}
+
+#about_us {
+    height: 100vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.about_us_left {
+    height: 100%;
+    width: 33.3%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+    justify-content: center;
+}
+
+.pic {
+    height: 280px;
+    width: 300px;
+    /* background-color: blueviolet; */
+    overflow: hidden;
+ 
+}
+.pic img:hover{
+    scale:1.1;
+    transition: all 0.3 ease-out;
+}
+
+.pic1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pic2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about_us_mid {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(9, 9, 46);
+    color: #fff;
+    padding: 20px 50px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about_us_mid button {
+    width: 120px;
+    padding: 15px;
+    border-radius: 0;
+}
+
+.about_us_right {
+    height: 100%;
+    width: 33.3%;
+    padding: 10px;
+    /* background-color: blueviolet; */
+    /* padding: 50px 100px 400px 10px; */
+}
+
+.right_video {
+    height: 70%;
+    width: 90%;
+    padding-top: 30px;
+    position: relative;
+    /* background-color: cornflowerblue; */
+}
+
+.right_video video {
+    width: 100%;
+}
+
+.playbtn {
+    height: 50px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.478);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.btn1 {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+}
+
+.btn2 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.playbtn i {
+    font-size: 30px;
+}
+
+.about_us_right .content {
+    text-transform: capitalize;
+}
+
+.about_us_right span {
+    color: royalblue;
+}
+
+.container {
+    height: 80vh;
+    width: 100%;
+}
+
+.great_choice {
+    height: 100%;
+    width: 100%;
+    /* background-color: brown; */
+    padding-top: 5%;
+    display: flex;
+}
+
+.great_choice_left {
+    height: 100%;
+    width: 40%;
+    background-image: url("https://media.designcafe.com/wp-content/uploads/2019/11/17060449/Q4aC8wUjahqVLa2vUA5BgXRrzAJSMzDFlwwZ8QFwAhGlDx4fAgLyCZ7ASBin-V9DxAGxg-0R0ngsCX75Fm5KI53AhRsrNnOVSCBCZ5usrlkXhSlyUp7dGFkRWVC1lvLVLOZNNaUX.jpeg");
+    background-size: cover;
+    /* background-color: blue; */
+}
+
+.great_choice_right {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(9, 9, 46);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+ span {
+    color: royalblue;
+}
+
+.great_choice_right_bottom {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.imag {
+    height: 160px;
+    width: 200px;
+    background-color: aqua;
+
+}
+.imag img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.imag img:hover{
+    scale: 1.1;
+}
+
+
+.great_choice_right_bottom .icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: royalblue;
+    position: relative;
+}
+
+.great_choice_right_bottom i {
+    font-size: 25px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.home_design{
+    height: 100vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: 5%;
+    padding:60px 0 ;
+}
+.latest_design{
+    height: 15%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.gallery_home{
+    height: 90%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap:wrap;
+}
+.gallery_home .box{
+height: 250px;
+width: 350px;
+position: relative;
+/* background-color: coral; */
+}
+
+.gallery_home .box img{
+    height: 100%;
+    width: 100%;
+}
+.gallery_home .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 01;
+    background-color: rgba(0, 0, 0, 0.49);
+}
+
+.box .text{
+    color: white;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+.btns{
+    background-color: royalblue;
+    /* height: 30px;
+    width: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+
+.common:hover{
+    scale: 1.1;
+    z-index: 10;
+    transition: .5s;
+}
+.foot{
+    height: 60vh;
+    width: 100%;
+    background-color:rgb(9, 9, 46);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(207, 203, 203);
+    line-height: 25px;
+    
+}
+.foot h1{
+    font-size: 22px;
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.contact i{
+    font-size: 25px;
+    color:rgb(85, 118, 218);
+}
+.part4 .subs{
+    display: flex;
+    padding: 20px 0;
+}
+.subs button{
+    border-radius:0;
+}
+.subs input{
+    padding: 10px 20px;
+}
